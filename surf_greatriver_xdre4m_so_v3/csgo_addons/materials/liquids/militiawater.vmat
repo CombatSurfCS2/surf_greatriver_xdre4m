@@ -1,0 +1,83 @@
+"Layer0"
+{
+	"Shader"		"csgo_water.vfx"
+	"TextureNormal"		"materials/dev/water_normal.mks"
+	"F_ANIMATED_NORMALS"		"1"
+	"g_flReflectionAmount"		"1.000000"
+	"g_flRefractionAmount"		"0.000000"
+	"g_vWaterFogColor"		"[0.070000 0.140000 0.120000]"
+	"F_FRESNEL"		"1"
+	"g_flWaterDepth"		"80.000000"
+	"g_flWaterStart"		"5.000000"
+	"DynamicParams"
+	{
+		"g_vNormalTexCoordOffset"		"frac( float2( 0.035, 0.035 ) * time() )"
+	}
+	"Attributes"
+	{
+		"mapbuilder.nonsolid"		"1"
+		"mapbuilder.water"		"1"
+	}
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"water"
+	}
+	"legacy_import"
+	{
+		"Water"
+		{
+			"%tooltexture"		"dev/water_normal"
+			"$refracttexture"		"_rt_WaterRefraction"
+			"$reflectentities"		"0"
+			"$abovewater"		"1"
+			"Water_DX90"
+			{
+				"$refractamount"		"0"
+			}
+			"Water_DX81"
+			{
+				"$refractamount"		"0"
+			}
+			"Water_DX80"
+			{
+				"$refractamount"		"0"
+			}
+			"Water_DX60"
+			{
+				"$fallbackmaterial"		"liquids/militiawater_dx70"
+			}
+			"$scale"		"[.5 .5]"
+			"$bumpmap"		"dev/water_dudv"
+			"$normalmap"		"dev/water_normal"
+			"$envmap"		"env_cubemap"
+			"$envmaptint"		"[1 1 1]"
+			"lightmappedgeneric_HDR_dx9"
+			{
+				"$envmaptint"		"[.25 .25 .25]"
+			}
+			"%compilewater"		"1"
+			"$surfaceprop"		"water"
+			"$bottommaterial"		"liquids/militiaWaterbeneath"
+			"$bumpframe"		"0"
+			"$fogenable"		"1"
+			"$fogcolor"		"[.07 .14 .12]"
+			"$fogstart"		"5"
+			"$fogend"		"80"
+			"Proxies"
+			{
+				"AnimatedTexture"
+				{
+					"animatedtexturevar"		"$normalmap"
+					"animatedtextureframenumvar"		"$bumpframe"
+					"animatedtextureframerate"		"16.000000"
+				}
+				"TextureScroll"
+				{
+					"texturescrollvar"		"$bumptransform"
+					"texturescrollrate"		"0.050000"
+					"texturescrollangle"		"45.000000"
+				}
+			}
+		}
+	}
+}

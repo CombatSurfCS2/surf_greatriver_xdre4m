@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_tides\vending_cart.vmt"
+}

@@ -1,0 +1,31 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"Attributes"
+	{
+		"mapbuilder.passbullets"		"1"
+	}
+	"TextureLayer1Color"		"materials/metal/metalbar001c_color.tga"
+	"TextureLayer1Translucency"		"materials/metal/metalbar001c_trans.tga"
+	"F_TRANSLUCENT"		"1"
+	"TextureLayer1Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"F_LAYERS"		"0"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"F_TEXTURETRANSFORMS"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"LightmappedGeneric"
+		{
+			"$translucent"		"1"
+			"$basetexture"		"Metal/metalbar001c"
+			"$surfaceprop"		"metal"
+			"%compilepassbullets"		"1"
+			"%keywords"		"c17downtown,c17industrial,c17sewers,wasteland"
+		}
+	}
+}

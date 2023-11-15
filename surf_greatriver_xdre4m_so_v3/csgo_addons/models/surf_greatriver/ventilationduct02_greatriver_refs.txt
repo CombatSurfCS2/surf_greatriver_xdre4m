@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\surf_greatriver\ventilationduct02.vmt"
+}

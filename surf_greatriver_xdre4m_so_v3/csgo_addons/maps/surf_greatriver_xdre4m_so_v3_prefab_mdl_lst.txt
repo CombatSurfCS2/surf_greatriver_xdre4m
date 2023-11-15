@@ -1,0 +1,5 @@
+models/weapons/w_eq_fraggrenade.mdl
+models/props/de_tides/Vending_turtle.mdl
+models/props/cs_assault/ventilationduct02.mdl
+models/surf_greatriver/ventilationduct02_greatriver.mdl
+models/props_c17/light_industrialbell01_on.mdl

@@ -1,0 +1,27 @@
+"Layer0"
+{
+	"Shader"		"csgo_unlitgeneric.vfx"
+	"F_UNLIT"		"1"
+	"TextureColor"		"materials/effects/tp_eyefx/3tpeyefx__color.mks"
+	"g_vColorTint"		"[0.484529 0.484529 0.484529]"
+	"F_BLEND_MODE"		"4"
+	"legacy_import"
+	{
+		"UnlitGeneric"
+		{
+			"$translucent"		"1"
+			"$color"		"0.200000"
+			"$additive"		"1"
+			"$basetexture"		"effects/tp_eyefx/3tpeyefx_"
+			"Proxies"
+			{
+				"AnimatedTexture"
+				{
+					"animatedtexturevar"		"$basetexture"
+					"animatedtextureframenumvar"		"$frame"
+					"animatedtextureframerate"		"30"
+				}
+			}
+		}
+	}
+}
